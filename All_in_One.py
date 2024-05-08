@@ -57,11 +57,7 @@ model_path_dict['IFCNN'] = os.path.join(os.getcwd(), 'Checkpoint/IFCNN/IFCNN-MAX
 
 model_path_dict['UMF-CMGR'] = os.path.join(os.getcwd(), 'Checkpoint/UMF-CMGR/UMF_CMGR.pth')
 
-Method_list = ['CSF', 'CUFD', 'DIDFuse', 'DIVFusion', 'DenseFuse', 
-               'FusionGAN', 'GAN-FM', 'GANMcC', 'IFCNN', 'NestFuse', 
-               'PIAFusion', 'PMGI', 'RFN-Nest', 'SDNet', 'STDFusionNet', 
-               'SeAFusion', 'SuperFusion', 'SwinFusion', 'TarDAL', 'U2Fusion', 
-               'UMF-CMGR']
+Method_list = ['TarDAL','SeAFusion']
 print(len(Method_list))
 two_model_list =['CSF', 'CUFD', 'DIDFuse', 'DIVFusion', 'RFN-Nest'] 
 
